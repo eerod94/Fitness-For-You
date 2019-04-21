@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<!-- Esteban Rodriguez's Fitness Webpage -->
+<!-- Week 15 Assignment; Due 4-21-19-->
+
+<html lang="en"> 
+
+	<head>
+		<title> HW7 </title>
+		
+		<script src="alert.js"></script>
+		
+		
+	<!-- Responsive Design -->
+		<style>
+			body{ 
+			background-color: orange;
+			}
+			@media (max-width:320px){
+				body{
+				background-color: green;
+				}
+			}
+			@media (max-width:768px){
+				body{
+				background-color: red;
+				}
+			}
+		</style>
+	<!-- Responsive Design -->
+	
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta name="description" content="Fitness for you is an up and coming website that allows you to find exactly what you need to get in the best shape of your life.">
+	
+	
+	</head>	
+	
+	<body>
+	
+	
+	<!-- Main Logo -->
+		<img src="flag.jpg" style="width:15%" alt="Logo" title="Murica"><br>
+		&nbsp; <br>
+		<hr>
+		<h1>Fitness For You</h1>
+		
+	<!-- Main Logo -->
+	
+	
+	
+	
+	
+	
+	<!-- Various Tabs -->
+		<nav style ="font-family: Poor Richard; font-size:3vw; color:white">
+		<a href="file:///C:/Users/eerod/Desktop/CSU%20Spring%2019/Web%20Design/Week%2015/HW7.html">Home</a>
+		<a href="file:///C:/Users/eerod/Desktop/CSU%20Spring%2019/Web%20Design/Week%2015/Locator.html">Gym Locator</a>
+		<a href="file:///C:/Users/eerod/Desktop/CSU%20Spring%2019/Web%20Design/Week%2015/Healthcare.html">Healthcare</a>
+		<a href="file:///C:/Users/eerod/Desktop/CSU%20Spring%2019/Web%20Design/Week%2015/Search.html">Plan/Contract Search</a>
+		</nav>
+	<!-- Various Tabs -->
+	
+		
+		
+	<main>
+	
+		<p style="font-size:2vw;font-family:Poor Richard">
+			Welcome to Fitness For You, the premier site for finding gyms in your location based off your wants and desires. 
+		</p>
+		
+		
+		<img src="eq.jpg" alt="Weight" style="width:33%">
+		<img src="gym.jpg" alt="Iron" style="width:33%">
+		<img src="med.jpg" alt="Meds" style="width:33%">
+		
+		
+		
+	
+		<h3> Lets Get To Know You</h3>
+		
+		<!--Radio-->
+		<p>How Old Are You?</p>
+		<form>
+			<input type="radio" name="age" value="over"> 18 or Older<br>
+			<input type="radio" name="age" value="under"> Under 18<br>
+		
+		<!--Radio-->
+		
+		
+		<br>
+		
+		
+		<!-- Text Form-->
+		
+			<label for="fName">First Name:</label>
+			<input type="text" id="fName" name="fName">
+		
+			<label for="lName">Last Name:</label>
+			<input type="text" id="lName" name="lName">
+		
+		<!-- Text Form-->
+	
+		<br>
+		
+		<!--Text Area Form-->
+		
+		
+			<label for="Goals">What are some of your goals?</label>
+			<br>
+			<textarea id="Goals" name="Goals" rows="4" cols="25"></textarea>
+		
+		<!--Text Area Form-->
+	
+	
+		<br>
+		
+		
+		<!--Checkbox-->
+		
+			<p>What kind of gym are you looking for?</p>
+			<ul>
+				<li><input type="checkbox" name="conv" id="conv" value="conv" class="chkbx">Conventional</li>
+				<li><input type="checkbox" name="cf" id="cf" value="cf" class="chkbx">CrossFit</li>
+				<li><input type="checkbox" name="other" id="other" value="other" class="chkbx">Other</li>
+			</ul>
+		
+		<!--Checkbox-->
+		
+		
+		<br>
+		
+		
+		<!--Submit/Reset-->
+		
+			<input type="submit" id="submit" value="Submit" class="btn" onclick="tyAlert()">
+			<input type="reset" id="reset" value="Reset" class="btn">
+		</form>
+		<!--Submit/Reset-->
+	
+	
+	
+	<p style="font-size:2vw;font-family:Poor Richard">
+	Get out there and find a better you!
+	</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	</main>
+	
+	<!-- Footer -->
+	<footer style="font-size:1vw">
+		&copy; Copyright 2019. All Rights Reserved. <br>
+		fitnessforyou@gmail.com 
+	</footer>
+	<!-- Footer -->
+	
+	
+
+
+	</body> 
+	</html>
